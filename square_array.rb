@@ -1,14 +1,9 @@
 
 
-def square_array(array)
-    new_array = []
-    counter = 0
-    
-    while counter < array.length do
-      new_array <<[counter] ** 2
-      counter += 1
-    end
 
-new_array 
-    
+   def square_array = []
+    square_array.each do |array|
+  puts square_array 
 end
+
+    
